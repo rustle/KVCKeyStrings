@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		914490671547A6B900AE7143 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 914490661547A6B900AE7143 /* Foundation.framework */; };
+		9144906A1547A6B900AE7143 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 914490691547A6B900AE7143 /* main.m */; };
+		9144906E1547A6B900AE7143 /* KVCKeyStrings.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9144906D1547A6B900AE7143 /* KVCKeyStrings.1 */; };
+		914490861547A9BB00AE7143 /* ESObjectPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 914490851547A9BB00AE7143 /* ESObjectPath.m */; };
+		914490891547A9F400AE7143 /* NSObject+KVCKeyString.m in Sources */ = {isa = PBXBuildFile; fileRef = 914490881547A9F400AE7143 /* NSObject+KVCKeyString.m */; };
+		914490A31547C78F00AE7143 /* ESMutableDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 914490991547C78F00AE7143 /* ESMutableDictionary.m */; };
+		914490A41547C78F00AE7143 /* ESDeclaredPropertyAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 9144909D1547C78F00AE7143 /* ESDeclaredPropertyAttributes.m */; };
+		914490A51547C78F00AE7143 /* ESDeclaredPropertyFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9144909F1547C78F00AE7143 /* ESDeclaredPropertyFunctions.m */; };
+		914490A61547C78F00AE7143 /* NSObject+PropertyDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 914490A11547C78F00AE7143 /* NSObject+PropertyDictionary.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		914490601547A6B800AE7143 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				9144906E1547A6B900AE7143 /* KVCKeyStrings.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		914490621547A6B900AE7143 /* KVCKeyStrings */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = KVCKeyStrings; sourceTree = BUILT_PRODUCTS_DIR; };
+		914490661547A6B900AE7143 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		914490691547A6B900AE7143 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9144906C1547A6B900AE7143 /* KVCKeyStrings-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KVCKeyStrings-Prefix.pch"; sourceTree = "<group>"; };
+		9144906D1547A6B900AE7143 /* KVCKeyStrings.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = KVCKeyStrings.1; sourceTree = "<group>"; };
+		914490841547A9BB00AE7143 /* ESObjectPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESObjectPath.h; sourceTree = "<group>"; };
+		914490851547A9BB00AE7143 /* ESObjectPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESObjectPath.m; sourceTree = "<group>"; };
+		914490871547A9F400AE7143 /* NSObject+KVCKeyString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+KVCKeyString.h"; sourceTree = "<group>"; };
+		914490881547A9F400AE7143 /* NSObject+KVCKeyString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KVCKeyString.m"; sourceTree = "<group>"; };
+		914490981547C78F00AE7143 /* ESMutableDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESMutableDictionary.h; sourceTree = "<group>"; };
+		914490991547C78F00AE7143 /* ESMutableDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESMutableDictionary.m; sourceTree = "<group>"; };
+		9144909A1547C78F00AE7143 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		9144909C1547C78F00AE7143 /* ESDeclaredPropertyAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESDeclaredPropertyAttributes.h; sourceTree = "<group>"; };
+		9144909D1547C78F00AE7143 /* ESDeclaredPropertyAttributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESDeclaredPropertyAttributes.m; sourceTree = "<group>"; };
+		9144909E1547C78F00AE7143 /* ESDeclaredPropertyFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESDeclaredPropertyFunctions.h; sourceTree = "<group>"; };
+		9144909F1547C78F00AE7143 /* ESDeclaredPropertyFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESDeclaredPropertyFunctions.m; sourceTree = "<group>"; };
+		914490A01547C78F00AE7143 /* NSObject+PropertyDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+PropertyDictionary.h"; sourceTree = "<group>"; };
+		914490A11547C78F00AE7143 /* NSObject+PropertyDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+PropertyDictionary.m"; sourceTree = "<group>"; };
+		914490A21547C78F00AE7143 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9144905F1547A6B800AE7143 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				914490671547A6B900AE7143 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		914490571547A6B800AE7143 = {
+			isa = PBXGroup;
+			children = (
+				914490681547A6B900AE7143 /* KVCKeyStrings */,
+				914490651547A6B900AE7143 /* Frameworks */,
+				914490631547A6B900AE7143 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		914490631547A6B900AE7143 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				914490621547A6B900AE7143 /* KVCKeyStrings */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		914490651547A6B900AE7143 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				914490661547A6B900AE7143 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		914490681547A6B900AE7143 /* KVCKeyStrings */ = {
+			isa = PBXGroup;
+			children = (
+				914490971547C78F00AE7143 /* ESMutableDictionary */,
+				9144909B1547C78F00AE7143 /* NSObject+PropertyDictionary */,
+				914490841547A9BB00AE7143 /* ESObjectPath.h */,
+				914490851547A9BB00AE7143 /* ESObjectPath.m */,
+				914490871547A9F400AE7143 /* NSObject+KVCKeyString.h */,
+				914490881547A9F400AE7143 /* NSObject+KVCKeyString.m */,
+				914490691547A6B900AE7143 /* main.m */,
+				9144906D1547A6B900AE7143 /* KVCKeyStrings.1 */,
+				9144906B1547A6B900AE7143 /* Supporting Files */,
+			);
+			path = KVCKeyStrings;
+			sourceTree = "<group>";
+		};
+		9144906B1547A6B900AE7143 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9144906C1547A6B900AE7143 /* KVCKeyStrings-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		914490971547C78F00AE7143 /* ESMutableDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				914490981547C78F00AE7143 /* ESMutableDictionary.h */,
+				914490991547C78F00AE7143 /* ESMutableDictionary.m */,
+				9144909A1547C78F00AE7143 /* README */,
+			);
+			path = ESMutableDictionary;
+			sourceTree = SOURCE_ROOT;
+		};
+		9144909B1547C78F00AE7143 /* NSObject+PropertyDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				9144909C1547C78F00AE7143 /* ESDeclaredPropertyAttributes.h */,
+				9144909D1547C78F00AE7143 /* ESDeclaredPropertyAttributes.m */,
+				9144909E1547C78F00AE7143 /* ESDeclaredPropertyFunctions.h */,
+				9144909F1547C78F00AE7143 /* ESDeclaredPropertyFunctions.m */,
+				914490A01547C78F00AE7143 /* NSObject+PropertyDictionary.h */,
+				914490A11547C78F00AE7143 /* NSObject+PropertyDictionary.m */,
+				914490A21547C78F00AE7143 /* README */,
+			);
+			path = "NSObject+PropertyDictionary";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		914490611547A6B800AE7143 /* KVCKeyStrings */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 914490711547A6B900AE7143 /* Build configuration list for PBXNativeTarget "KVCKeyStrings" */;
+			buildPhases = (
+				9144905E1547A6B800AE7143 /* Sources */,
+				9144905F1547A6B800AE7143 /* Frameworks */,
+				914490601547A6B800AE7143 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KVCKeyStrings;
+			productName = KVCKeyStrings;
+			productReference = 914490621547A6B900AE7143 /* KVCKeyStrings */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		914490591547A6B800AE7143 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Black Pixel";
+			};
+			buildConfigurationList = 9144905C1547A6B800AE7143 /* Build configuration list for PBXProject "KVCKeyStrings" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 914490571547A6B800AE7143;
+			productRefGroup = 914490631547A6B900AE7143 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				914490611547A6B800AE7143 /* KVCKeyStrings */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9144905E1547A6B800AE7143 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9144906A1547A6B900AE7143 /* main.m in Sources */,
+				914490861547A9BB00AE7143 /* ESObjectPath.m in Sources */,
+				914490891547A9F400AE7143 /* NSObject+KVCKeyString.m in Sources */,
+				914490A31547C78F00AE7143 /* ESMutableDictionary.m in Sources */,
+				914490A41547C78F00AE7143 /* ESDeclaredPropertyAttributes.m in Sources */,
+				914490A51547C78F00AE7143 /* ESDeclaredPropertyFunctions.m in Sources */,
+				914490A61547C78F00AE7143 /* NSObject+PropertyDictionary.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9144906F1547A6B900AE7143 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		914490701547A6B900AE7143 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		914490721547A6B900AE7143 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KVCKeyStrings/KVCKeyStrings-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		914490731547A6B900AE7143 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KVCKeyStrings/KVCKeyStrings-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9144905C1547A6B800AE7143 /* Build configuration list for PBXProject "KVCKeyStrings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9144906F1547A6B900AE7143 /* Debug */,
+				914490701547A6B900AE7143 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		914490711547A6B900AE7143 /* Build configuration list for PBXNativeTarget "KVCKeyStrings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				914490721547A6B900AE7143 /* Debug */,
+				914490731547A6B900AE7143 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 914490591547A6B800AE7143 /* Project object */;
+}
